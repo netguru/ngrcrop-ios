@@ -23,8 +23,6 @@
 		961CA2981AF8EC6D00C339BB /* NGREventMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2921AF8EC6D00C339BB /* NGREventMessenger.m */; };
 		961CA2991AF8EC6D00C339BB /* NGRImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2941AF8EC6D00C339BB /* NGRImageEditViewController.m */; };
 		961CA29A1AF8EC6D00C339BB /* NGRTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */; };
-		961CA29E1AF8EC8200C339BB /* NGRAssertTypeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */; };
-		961CA2A31AF8EC9F00C339BB /* NGRImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */; };
 		961CA2AC1AF8ECDE00C339BB /* NGRImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2A91AF8ECDE00C339BB /* NGRImageEditView.m */; };
 		961CA2AD1AF8ECDE00C339BB /* NGRTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2AB1AF8ECDE00C339BB /* NGRTransformView.m */; };
 /* End PBXBuildFile section */
@@ -84,11 +82,6 @@
 		961CA2941AF8EC6D00C339BB /* NGRImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRImageEditViewController.m; path = Controllers/NGRImageEditViewController.m; sourceTree = "<group>"; };
 		961CA2951AF8EC6D00C339BB /* NGRTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRTransformViewController.h; path = Controllers/NGRTransformViewController.h; sourceTree = "<group>"; };
 		961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRTransformViewController.m; path = Controllers/NGRTransformViewController.m; sourceTree = "<group>"; };
-		961CA29C1AF8EC8200C339BB /* NGRAssertTypeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAssertTypeUtils.h; path = "Asset Models/Utils/NGRAssertTypeUtils.h"; sourceTree = "<group>"; };
-		961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRAssertTypeUtils.m; path = "Asset Models/Utils/NGRAssertTypeUtils.m"; sourceTree = "<group>"; };
-		961CA2A11AF8EC9F00C339BB /* NGRImageAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRImageAsset.h; path = "Asset Models/Image Asset/NGRImageAsset.h"; sourceTree = "<group>"; };
-		961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRImageAsset.m; path = "Asset Models/Image Asset/NGRImageAsset.m"; sourceTree = "<group>"; };
-		961CA2A51AF8ECAF00C339BB /* NGRAssetType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAssetType.h; path = "Asset Models/NGRAssetType.h"; sourceTree = "<group>"; };
 		961CA2A61AF8ECBB00C339BB /* NGRGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRGeometry.h; sourceTree = "<group>"; };
 		961CA2A71AF8ECBB00C339BB /* NGRNotificationIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRNotificationIdentifiers.h; sourceTree = "<group>"; };
 		961CA2A81AF8ECDE00C339BB /* NGRImageEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRImageEditView.h; path = Views/NGRImageEditView.h; sourceTree = "<group>"; };
@@ -140,7 +133,6 @@
 				961CA2AE1AF8ECE800C339BB /* Views */,
 				961CA2A61AF8ECBB00C339BB /* NGRGeometry.h */,
 				961CA2A71AF8ECBB00C339BB /* NGRNotificationIdentifiers.h */,
-				961CA29F1AF8EC8700C339BB /* Asset Models */,
 				961CA29B1AF8EC7400C339BB /* Controllers */,
 				961CA2871AF8EC4C00C339BB /* CropFrame */,
 				961CA27D1AF8EC3900C339BB /* Default Header Footer */,
@@ -227,34 +219,6 @@
 				961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		961CA29F1AF8EC8700C339BB /* Asset Models */ = {
-			isa = PBXGroup;
-			children = (
-				961CA2A51AF8ECAF00C339BB /* NGRAssetType.h */,
-				961CA2A41AF8ECA300C339BB /* Image Assets */,
-				961CA2A01AF8EC8F00C339BB /* Utils */,
-			);
-			name = "Asset Models";
-			sourceTree = "<group>";
-		};
-		961CA2A01AF8EC8F00C339BB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				961CA29C1AF8EC8200C339BB /* NGRAssertTypeUtils.h */,
-				961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
-		961CA2A41AF8ECA300C339BB /* Image Assets */ = {
-			isa = PBXGroup;
-			children = (
-				961CA2A11AF8EC9F00C339BB /* NGRImageAsset.h */,
-				961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */,
-			);
-			name = "Image Assets";
 			sourceTree = "<group>";
 		};
 		961CA2AE1AF8ECE800C339BB /* Views */ = {
@@ -361,14 +325,12 @@
 				961CA27C1AF8EC3500C339BB /* NGRHeaderView.m in Sources */,
 				961CA2991AF8EC6D00C339BB /* NGRImageEditViewController.m in Sources */,
 				961CA2971AF8EC6D00C339BB /* NGRAlertController.m in Sources */,
-				961CA2A31AF8EC9F00C339BB /* NGRImageAsset.m in Sources */,
 				961CA27A1AF8EC3500C339BB /* NGRFooterView.m in Sources */,
 				961CA29A1AF8EC6D00C339BB /* NGRTransformViewController.m in Sources */,
 				961CA2711AF8EC1A00C339BB /* NGRRatioItem.m in Sources */,
 				961CA28D1AF8EC5900C339BB /* NGRScalableView+Math.m in Sources */,
 				961CA2851AF8EC4600C339BB /* NGRScalableBorder.m in Sources */,
 				961CA27B1AF8EC3500C339BB /* NGRHeaderFooterView.m in Sources */,
-				961CA29E1AF8EC8200C339BB /* NGRAssertTypeUtils.m in Sources */,
 				961CA2AC1AF8ECDE00C339BB /* NGRImageEditView.m in Sources */,
 				961CA2861AF8EC4600C339BB /* NGRScalableView.m in Sources */,
 				961CA28C1AF8EC5900C339BB /* NGRScalableBorder+Anchors.m in Sources */,
@@ -542,6 +504,7 @@
 				961CA2471AF8EB3A00C339BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		961CA2481AF8EB3A00C339BB /* Build configuration list for PBXNativeTarget "NGRCropTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +513,7 @@
 				961CA24A1AF8EB3A00C339BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

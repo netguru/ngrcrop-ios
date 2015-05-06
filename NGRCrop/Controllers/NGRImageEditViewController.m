@@ -14,7 +14,6 @@
 #import "NGRHeaderView.h"
 #import "NGRFooterView.h"
 
-#import "NGRImageAsset.h"
 #import "NGRNotificationIdentifiers.h"
 
 @interface NGRImageEditViewController ()
@@ -29,7 +28,7 @@
 
 #pragma mark - Object Lifecycle
 
-- (instancetype)initWithImageAsset:(NGRImageAsset *)asset {
+- (instancetype)initWithImageAsset:(UIImage *)asset {
     if (self = [super initWithNibName:nil bundle:nil]) {
         self.imageAsset = asset;
     }
@@ -82,7 +81,7 @@
     }
     
     NGRTransformViewController *containerTransformViewController = [self addContainerTransformViewController];
-    [containerTransformViewController setImage:[self.imageAsset image]];
+    [containerTransformViewController setImage:self.imageAsset];
 }
 
 #pragma mark - Public Methods
@@ -125,8 +124,7 @@
 - (void)onDoneAction {
     if ([self.delegate respondsToSelector:@selector(imageEditViewController:didFinishEditingWithImageAsset:)]) {
         UIImage *croppedImage = [self.transformViewController cropImage];
-        NGRImageAsset *asset = [[NGRImageAsset alloc] initWithImage:croppedImage];
-        [self.delegate imageEditViewController:self didFinishEditingWithImageAsset:asset];
+        [self.delegate imageEditViewController:self didFinishEditingWithImageAsset:croppedImage];
     }
 }
 
@@ -136,7 +134,7 @@
     return [self.transformViewController cropView];
 }
 
-- (void)setImageAsset:(NGRImageAsset *)imageAsset {
+- (void)setImageAsset:(UIImage *)imageAsset {
     if (![self.imageAsset isEqual:imageAsset]) {
         _imageAsset = imageAsset;
     }

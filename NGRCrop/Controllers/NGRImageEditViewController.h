@@ -33,7 +33,7 @@ IB_DESIGNABLE @interface NGRImageEditViewController : UIViewController
 /**
  *  The original image asset to be edited.
  */
-@property (strong, nonatomic) NGRImageAsset *imageAsset;
+@property (strong, nonatomic) UIImage *imageAsset;
 
 /**
  *  The scalable crop view that crops portion of the screen.
@@ -79,7 +79,7 @@ IB_DESIGNABLE @interface NGRImageEditViewController : UIViewController
  *  @param controller The edit view controller sending the delegate message.
  *  @param asset      The new image asset representing the edited image.
  */
-- (void)imageEditViewController:(NGRImageEditViewController *)controller didFinishEditingWithImageAsset:(NGRImageAsset *)asset;
+- (void)imageEditViewController:(NGRImageEditViewController *)controller didFinishEditingWithImageAsset:(UIImage *)asset;
 
 /**
  *  Called when the user cancels editing the image.
