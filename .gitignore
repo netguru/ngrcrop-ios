@@ -1,0 +1,55 @@
+#
+#  .gitignore
+#
+#  Copyright (c) 2015 Netguru Sp. z o.o. All rights reserved.
+#
+
+# OS X
+.DS_Store
+.localized
+
+# Xcode user-specific files
+*.pbxuser
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Xcode user-specific directories
+xcuserdata
+profile
+
+# Xcode build files and directories
+build
+output
+DerivedData
+*.o
+*.LinkFileList
+*.hmap
+*.ipa
+*.dSYM.zip
+
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+
+# AppCode files and directories
+.idea
+*.iml
+
+# Raw logs
+xcodebuild.log
+xcodebuild_error.log
+
+# CocoaPods files
+Pods
+
+# Carthage files
+Carthage
+
+# Bundler files
+.bundle
+vendor
+Bundler

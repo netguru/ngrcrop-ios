@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		961CA2351AF8EB3A00C339BB /* NGRCrop.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 961CA2341AF8EB3A00C339BB /* NGRCrop.h */; };
+		961CA2371AF8EB3A00C339BB /* NGRCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2361AF8EB3A00C339BB /* NGRCrop.m */; };
+		961CA23D1AF8EB3A00C339BB /* libNGRCrop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 961CA2311AF8EB3A00C339BB /* libNGRCrop.a */; };
+		961CA2711AF8EC1A00C339BB /* NGRRatioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2701AF8EC1A00C339BB /* NGRRatioItem.m */; };
+		961CA27A1AF8EC3500C339BB /* NGRFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2751AF8EC3500C339BB /* NGRFooterView.m */; };
+		961CA27B1AF8EC3500C339BB /* NGRHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2771AF8EC3500C339BB /* NGRHeaderFooterView.m */; };
+		961CA27C1AF8EC3500C339BB /* NGRHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2791AF8EC3500C339BB /* NGRHeaderView.m */; };
+		961CA2841AF8EC4600C339BB /* NGRAnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA27F1AF8EC4600C339BB /* NGRAnchorPoint.m */; };
+		961CA2851AF8EC4600C339BB /* NGRScalableBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2811AF8EC4600C339BB /* NGRScalableBorder.m */; };
+		961CA2861AF8EC4600C339BB /* NGRScalableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2831AF8EC4600C339BB /* NGRScalableView.m */; };
+		961CA28C1AF8EC5900C339BB /* NGRScalableBorder+Anchors.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2891AF8EC5900C339BB /* NGRScalableBorder+Anchors.m */; };
+		961CA28D1AF8EC5900C339BB /* NGRScalableView+Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA28B1AF8EC5900C339BB /* NGRScalableView+Math.m */; };
+		961CA2971AF8EC6D00C339BB /* NGRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2901AF8EC6D00C339BB /* NGRAlertController.m */; };
+		961CA2981AF8EC6D00C339BB /* NGREventMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2921AF8EC6D00C339BB /* NGREventMessenger.m */; };
+		961CA2991AF8EC6D00C339BB /* NGRImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2941AF8EC6D00C339BB /* NGRImageEditViewController.m */; };
+		961CA29A1AF8EC6D00C339BB /* NGRTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */; };
+		961CA29E1AF8EC8200C339BB /* NGRAssertTypeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */; };
+		961CA2A31AF8EC9F00C339BB /* NGRImageAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */; };
+		961CA2AC1AF8ECDE00C339BB /* NGRImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2A91AF8ECDE00C339BB /* NGRImageEditView.m */; };
+		961CA2AD1AF8ECDE00C339BB /* NGRTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 961CA2AB1AF8ECDE00C339BB /* NGRTransformView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		961CA23E1AF8EB3A00C339BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961CA2291AF8EB3A00C339BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961CA2301AF8EB3A00C339BB;
+			remoteInfo = NGRCrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		961CA22F1AF8EB3A00C339BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				961CA2351AF8EB3A00C339BB /* NGRCrop.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		961CA2311AF8EB3A00C339BB /* libNGRCrop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNGRCrop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		961CA2341AF8EB3A00C339BB /* NGRCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGRCrop.h; sourceTree = "<group>"; };
+		961CA2361AF8EB3A00C339BB /* NGRCrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGRCrop.m; sourceTree = "<group>"; };
+		961CA23C1AF8EB3A00C339BB /* NGRCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGRCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961CA2421AF8EB3A00C339BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961CA26F1AF8EC1A00C339BB /* NGRRatioItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRRatioItem.h; path = Models/NGRRatioItem.h; sourceTree = "<group>"; };
+		961CA2701AF8EC1A00C339BB /* NGRRatioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRRatioItem.m; path = Models/NGRRatioItem.m; sourceTree = "<group>"; };
+		961CA2741AF8EC3500C339BB /* NGRFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRFooterView.h; path = "Default Header Footer/NGRFooterView.h"; sourceTree = "<group>"; };
+		961CA2751AF8EC3500C339BB /* NGRFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRFooterView.m; path = "Default Header Footer/NGRFooterView.m"; sourceTree = "<group>"; };
+		961CA2761AF8EC3500C339BB /* NGRHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRHeaderFooterView.h; path = "Default Header Footer/NGRHeaderFooterView.h"; sourceTree = "<group>"; };
+		961CA2771AF8EC3500C339BB /* NGRHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRHeaderFooterView.m; path = "Default Header Footer/NGRHeaderFooterView.m"; sourceTree = "<group>"; };
+		961CA2781AF8EC3500C339BB /* NGRHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRHeaderView.h; path = "Default Header Footer/NGRHeaderView.h"; sourceTree = "<group>"; };
+		961CA2791AF8EC3500C339BB /* NGRHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRHeaderView.m; path = "Default Header Footer/NGRHeaderView.m"; sourceTree = "<group>"; };
+		961CA27E1AF8EC4600C339BB /* NGRAnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAnchorPoint.h; path = CropFrame/NGRAnchorPoint.h; sourceTree = "<group>"; };
+		961CA27F1AF8EC4600C339BB /* NGRAnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRAnchorPoint.m; path = CropFrame/NGRAnchorPoint.m; sourceTree = "<group>"; };
+		961CA2801AF8EC4600C339BB /* NGRScalableBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRScalableBorder.h; path = CropFrame/NGRScalableBorder.h; sourceTree = "<group>"; };
+		961CA2811AF8EC4600C339BB /* NGRScalableBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRScalableBorder.m; path = CropFrame/NGRScalableBorder.m; sourceTree = "<group>"; };
+		961CA2821AF8EC4600C339BB /* NGRScalableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRScalableView.h; path = CropFrame/NGRScalableView.h; sourceTree = "<group>"; };
+		961CA2831AF8EC4600C339BB /* NGRScalableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRScalableView.m; path = CropFrame/NGRScalableView.m; sourceTree = "<group>"; };
+		961CA2881AF8EC5900C339BB /* NGRScalableBorder+Anchors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NGRScalableBorder+Anchors.h"; path = "CropFrame/Categories/NGRScalableBorder+Anchors.h"; sourceTree = "<group>"; };
+		961CA2891AF8EC5900C339BB /* NGRScalableBorder+Anchors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NGRScalableBorder+Anchors.m"; path = "CropFrame/Categories/NGRScalableBorder+Anchors.m"; sourceTree = "<group>"; };
+		961CA28A1AF8EC5900C339BB /* NGRScalableView+Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NGRScalableView+Math.h"; path = "CropFrame/Categories/NGRScalableView+Math.h"; sourceTree = "<group>"; };
+		961CA28B1AF8EC5900C339BB /* NGRScalableView+Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NGRScalableView+Math.m"; path = "CropFrame/Categories/NGRScalableView+Math.m"; sourceTree = "<group>"; };
+		961CA28F1AF8EC6D00C339BB /* NGRAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAlertController.h; path = Controllers/NGRAlertController.h; sourceTree = "<group>"; };
+		961CA2901AF8EC6D00C339BB /* NGRAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRAlertController.m; path = Controllers/NGRAlertController.m; sourceTree = "<group>"; };
+		961CA2911AF8EC6D00C339BB /* NGREventMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGREventMessenger.h; path = Controllers/NGREventMessenger.h; sourceTree = "<group>"; };
+		961CA2921AF8EC6D00C339BB /* NGREventMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGREventMessenger.m; path = Controllers/NGREventMessenger.m; sourceTree = "<group>"; };
+		961CA2931AF8EC6D00C339BB /* NGRImageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRImageEditViewController.h; path = Controllers/NGRImageEditViewController.h; sourceTree = "<group>"; };
+		961CA2941AF8EC6D00C339BB /* NGRImageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRImageEditViewController.m; path = Controllers/NGRImageEditViewController.m; sourceTree = "<group>"; };
+		961CA2951AF8EC6D00C339BB /* NGRTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRTransformViewController.h; path = Controllers/NGRTransformViewController.h; sourceTree = "<group>"; };
+		961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRTransformViewController.m; path = Controllers/NGRTransformViewController.m; sourceTree = "<group>"; };
+		961CA29C1AF8EC8200C339BB /* NGRAssertTypeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAssertTypeUtils.h; path = "Asset Models/Utils/NGRAssertTypeUtils.h"; sourceTree = "<group>"; };
+		961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRAssertTypeUtils.m; path = "Asset Models/Utils/NGRAssertTypeUtils.m"; sourceTree = "<group>"; };
+		961CA2A11AF8EC9F00C339BB /* NGRImageAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRImageAsset.h; path = "Asset Models/Image Asset/NGRImageAsset.h"; sourceTree = "<group>"; };
+		961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRImageAsset.m; path = "Asset Models/Image Asset/NGRImageAsset.m"; sourceTree = "<group>"; };
+		961CA2A51AF8ECAF00C339BB /* NGRAssetType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRAssetType.h; path = "Asset Models/NGRAssetType.h"; sourceTree = "<group>"; };
+		961CA2A61AF8ECBB00C339BB /* NGRGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRGeometry.h; sourceTree = "<group>"; };
+		961CA2A71AF8ECBB00C339BB /* NGRNotificationIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRNotificationIdentifiers.h; sourceTree = "<group>"; };
+		961CA2A81AF8ECDE00C339BB /* NGRImageEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRImageEditView.h; path = Views/NGRImageEditView.h; sourceTree = "<group>"; };
+		961CA2A91AF8ECDE00C339BB /* NGRImageEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRImageEditView.m; path = Views/NGRImageEditView.m; sourceTree = "<group>"; };
+		961CA2AA1AF8ECDE00C339BB /* NGRTransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NGRTransformView.h; path = Views/NGRTransformView.h; sourceTree = "<group>"; };
+		961CA2AB1AF8ECDE00C339BB /* NGRTransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRTransformView.m; path = Views/NGRTransformView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		961CA22E1AF8EB3A00C339BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961CA2391AF8EB3A00C339BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961CA23D1AF8EB3A00C339BB /* libNGRCrop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		961CA2281AF8EB3A00C339BB = {
+			isa = PBXGroup;
+			children = (
+				961CA2331AF8EB3A00C339BB /* NGRCrop */,
+				961CA2401AF8EB3A00C339BB /* NGRCropTests */,
+				961CA2321AF8EB3A00C339BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		961CA2321AF8EB3A00C339BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2311AF8EB3A00C339BB /* libNGRCrop.a */,
+				961CA23C1AF8EB3A00C339BB /* NGRCropTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961CA2331AF8EB3A00C339BB /* NGRCrop */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2AE1AF8ECE800C339BB /* Views */,
+				961CA2A61AF8ECBB00C339BB /* NGRGeometry.h */,
+				961CA2A71AF8ECBB00C339BB /* NGRNotificationIdentifiers.h */,
+				961CA29F1AF8EC8700C339BB /* Asset Models */,
+				961CA29B1AF8EC7400C339BB /* Controllers */,
+				961CA2871AF8EC4C00C339BB /* CropFrame */,
+				961CA27D1AF8EC3900C339BB /* Default Header Footer */,
+				961CA2721AF8EC1F00C339BB /* Models */,
+				961CA2341AF8EB3A00C339BB /* NGRCrop.h */,
+				961CA2361AF8EB3A00C339BB /* NGRCrop.m */,
+			);
+			path = NGRCrop;
+			sourceTree = "<group>";
+		};
+		961CA2401AF8EB3A00C339BB /* NGRCropTests */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2411AF8EB3A00C339BB /* Supporting Files */,
+			);
+			path = NGRCropTests;
+			sourceTree = "<group>";
+		};
+		961CA2411AF8EB3A00C339BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2421AF8EB3A00C339BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		961CA2721AF8EC1F00C339BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				961CA26F1AF8EC1A00C339BB /* NGRRatioItem.h */,
+				961CA2701AF8EC1A00C339BB /* NGRRatioItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		961CA27D1AF8EC3900C339BB /* Default Header Footer */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2741AF8EC3500C339BB /* NGRFooterView.h */,
+				961CA2751AF8EC3500C339BB /* NGRFooterView.m */,
+				961CA2761AF8EC3500C339BB /* NGRHeaderFooterView.h */,
+				961CA2771AF8EC3500C339BB /* NGRHeaderFooterView.m */,
+				961CA2781AF8EC3500C339BB /* NGRHeaderView.h */,
+				961CA2791AF8EC3500C339BB /* NGRHeaderView.m */,
+			);
+			name = "Default Header Footer";
+			sourceTree = "<group>";
+		};
+		961CA2871AF8EC4C00C339BB /* CropFrame */ = {
+			isa = PBXGroup;
+			children = (
+				961CA28E1AF8EC5D00C339BB /* Categories */,
+				961CA27E1AF8EC4600C339BB /* NGRAnchorPoint.h */,
+				961CA27F1AF8EC4600C339BB /* NGRAnchorPoint.m */,
+				961CA2801AF8EC4600C339BB /* NGRScalableBorder.h */,
+				961CA2811AF8EC4600C339BB /* NGRScalableBorder.m */,
+				961CA2821AF8EC4600C339BB /* NGRScalableView.h */,
+				961CA2831AF8EC4600C339BB /* NGRScalableView.m */,
+			);
+			name = CropFrame;
+			sourceTree = "<group>";
+		};
+		961CA28E1AF8EC5D00C339BB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2881AF8EC5900C339BB /* NGRScalableBorder+Anchors.h */,
+				961CA2891AF8EC5900C339BB /* NGRScalableBorder+Anchors.m */,
+				961CA28A1AF8EC5900C339BB /* NGRScalableView+Math.h */,
+				961CA28B1AF8EC5900C339BB /* NGRScalableView+Math.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		961CA29B1AF8EC7400C339BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				961CA28F1AF8EC6D00C339BB /* NGRAlertController.h */,
+				961CA2901AF8EC6D00C339BB /* NGRAlertController.m */,
+				961CA2911AF8EC6D00C339BB /* NGREventMessenger.h */,
+				961CA2921AF8EC6D00C339BB /* NGREventMessenger.m */,
+				961CA2931AF8EC6D00C339BB /* NGRImageEditViewController.h */,
+				961CA2941AF8EC6D00C339BB /* NGRImageEditViewController.m */,
+				961CA2951AF8EC6D00C339BB /* NGRTransformViewController.h */,
+				961CA2961AF8EC6D00C339BB /* NGRTransformViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		961CA29F1AF8EC8700C339BB /* Asset Models */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2A51AF8ECAF00C339BB /* NGRAssetType.h */,
+				961CA2A41AF8ECA300C339BB /* Image Assets */,
+				961CA2A01AF8EC8F00C339BB /* Utils */,
+			);
+			name = "Asset Models";
+			sourceTree = "<group>";
+		};
+		961CA2A01AF8EC8F00C339BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				961CA29C1AF8EC8200C339BB /* NGRAssertTypeUtils.h */,
+				961CA29D1AF8EC8200C339BB /* NGRAssertTypeUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		961CA2A41AF8ECA300C339BB /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2A11AF8EC9F00C339BB /* NGRImageAsset.h */,
+				961CA2A21AF8EC9F00C339BB /* NGRImageAsset.m */,
+			);
+			name = "Image Assets";
+			sourceTree = "<group>";
+		};
+		961CA2AE1AF8ECE800C339BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				961CA2A81AF8ECDE00C339BB /* NGRImageEditView.h */,
+				961CA2A91AF8ECDE00C339BB /* NGRImageEditView.m */,
+				961CA2AA1AF8ECDE00C339BB /* NGRTransformView.h */,
+				961CA2AB1AF8ECDE00C339BB /* NGRTransformView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		961CA2301AF8EB3A00C339BB /* NGRCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961CA2451AF8EB3A00C339BB /* Build configuration list for PBXNativeTarget "NGRCrop" */;
+			buildPhases = (
+				961CA22D1AF8EB3A00C339BB /* Sources */,
+				961CA22E1AF8EB3A00C339BB /* Frameworks */,
+				961CA22F1AF8EB3A00C339BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGRCrop;
+			productName = NGRCrop;
+			productReference = 961CA2311AF8EB3A00C339BB /* libNGRCrop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		961CA23B1AF8EB3A00C339BB /* NGRCropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961CA2481AF8EB3A00C339BB /* Build configuration list for PBXNativeTarget "NGRCropTests" */;
+			buildPhases = (
+				961CA2381AF8EB3A00C339BB /* Sources */,
+				961CA2391AF8EB3A00C339BB /* Frameworks */,
+				961CA23A1AF8EB3A00C339BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961CA23F1AF8EB3A00C339BB /* PBXTargetDependency */,
+			);
+			name = NGRCropTests;
+			productName = NGRCropTests;
+			productReference = 961CA23C1AF8EB3A00C339BB /* NGRCropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		961CA2291AF8EB3A00C339BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marcin Piesiak";
+				TargetAttributes = {
+					961CA2301AF8EB3A00C339BB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					961CA23B1AF8EB3A00C339BB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 961CA22C1AF8EB3A00C339BB /* Build configuration list for PBXProject "NGRCrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 961CA2281AF8EB3A00C339BB;
+			productRefGroup = 961CA2321AF8EB3A00C339BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				961CA2301AF8EB3A00C339BB /* NGRCrop */,
+				961CA23B1AF8EB3A00C339BB /* NGRCropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		961CA23A1AF8EB3A00C339BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		961CA22D1AF8EB3A00C339BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961CA2981AF8EC6D00C339BB /* NGREventMessenger.m in Sources */,
+				961CA2AD1AF8ECDE00C339BB /* NGRTransformView.m in Sources */,
+				961CA27C1AF8EC3500C339BB /* NGRHeaderView.m in Sources */,
+				961CA2991AF8EC6D00C339BB /* NGRImageEditViewController.m in Sources */,
+				961CA2971AF8EC6D00C339BB /* NGRAlertController.m in Sources */,
+				961CA2A31AF8EC9F00C339BB /* NGRImageAsset.m in Sources */,
+				961CA27A1AF8EC3500C339BB /* NGRFooterView.m in Sources */,
+				961CA29A1AF8EC6D00C339BB /* NGRTransformViewController.m in Sources */,
+				961CA2711AF8EC1A00C339BB /* NGRRatioItem.m in Sources */,
+				961CA28D1AF8EC5900C339BB /* NGRScalableView+Math.m in Sources */,
+				961CA2851AF8EC4600C339BB /* NGRScalableBorder.m in Sources */,
+				961CA27B1AF8EC3500C339BB /* NGRHeaderFooterView.m in Sources */,
+				961CA29E1AF8EC8200C339BB /* NGRAssertTypeUtils.m in Sources */,
+				961CA2AC1AF8ECDE00C339BB /* NGRImageEditView.m in Sources */,
+				961CA2861AF8EC4600C339BB /* NGRScalableView.m in Sources */,
+				961CA28C1AF8EC5900C339BB /* NGRScalableBorder+Anchors.m in Sources */,
+				961CA2371AF8EB3A00C339BB /* NGRCrop.m in Sources */,
+				961CA2841AF8EC4600C339BB /* NGRAnchorPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961CA2381AF8EB3A00C339BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		961CA23F1AF8EB3A00C339BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961CA2301AF8EB3A00C339BB /* NGRCrop */;
+			targetProxy = 961CA23E1AF8EB3A00C339BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		961CA2431AF8EB3A00C339BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		961CA2441AF8EB3A00C339BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		961CA2461AF8EB3A00C339BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		961CA2471AF8EB3A00C339BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		961CA2491AF8EB3A00C339BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGRCropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		961CA24A1AF8EB3A00C339BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGRCropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		961CA22C1AF8EB3A00C339BB /* Build configuration list for PBXProject "NGRCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961CA2431AF8EB3A00C339BB /* Debug */,
+				961CA2441AF8EB3A00C339BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961CA2451AF8EB3A00C339BB /* Build configuration list for PBXNativeTarget "NGRCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961CA2461AF8EB3A00C339BB /* Debug */,
+				961CA2471AF8EB3A00C339BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		961CA2481AF8EB3A00C339BB /* Build configuration list for PBXNativeTarget "NGRCropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961CA2491AF8EB3A00C339BB /* Debug */,
+				961CA24A1AF8EB3A00C339BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 961CA2291AF8EB3A00C339BB /* Project object */;
+}
