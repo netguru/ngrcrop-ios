@@ -2,7 +2,7 @@
 ## UI Component
 UI component for editing selected photos. `NGRImageEditViewController` is responsible for scaling, rotating and croping them. Here is some preview how it looks in demo app:
 
-![crop view example](https://github.com/netguru/carrierwave-ios/blob/master/doc/2_crop_view.jpg "Crop view example")
+![crop view example](https://github.com/netguru/ngrcrop-ios/blob/master/doc/2_crop_view.jpg "Crop view example")
 
 ### Usage
 
