@@ -128,7 +128,7 @@ Animations algorithm is smart enough to validate if given/calculated frame is lo
 
 
 ## License
-**carrierwave-ios** is available under the [MIT license](https://github.com/netguru/carrierwave-ios/blob/master/LICENSE.md).
+**carrierwave-ios** is available under the [MIT license](https://github.com/netguru/ngrcrop-ios/blob/master/LICENSE.md).
 
 ## Contribution
 First, thank you for contributing!
@@ -141,7 +141,7 @@ Here's a few guidelines to follow:
 
 ## More Info
 
-Have a question? Please [open an issue](https://github.com/netguru/carrierwave-ios/issues/new)!
+Have a question? Please [open an issue](https://github.com/netguru/ngrcrop-ios/issues/new)!
 
 ## Authors
 
