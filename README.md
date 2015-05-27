@@ -43,7 +43,7 @@ To create a view with communication feature, you have to sublass `NGRHeaderFoote
 - (void)postShowRatioSheetMessage;
 - (void)postResetTransformationMessage;
 ```
-[Here](https://github.com/netguru/carrierwave-ios/blob/master/Carrierwave/CRVFooterView.m) is an example.
+[Here](https://github.com/netguru/ngrcrop-ios/blob/master/NGRCrop/Default%20Header%20Footer/NGRFooterView.m) is an example.
 
 Specifying header and footer height is also possible:
 ```objc
