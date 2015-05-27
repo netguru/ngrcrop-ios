@@ -126,42 +126,48 @@ Animates crop view to given ratio around its center. Final dimensions are maximu
 
 Animations algorithm is smart enough to validate if given/calculated frame is located in the superview or not. If not origin and/or size will be changed to valid one. So you do not have to worry that crop view will move outside the boundaries of its superview.
 
-License
 
-carrierwave-ios is available under the MIT license.
+## License
+**carrierwave-ios** is available under the [MIT license](https://github.com/netguru/carrierwave-ios/blob/master/LICENSE.md).
 
-Contribution
-
+## Contribution
 First, thank you for contributing!
 
 Here's a few guidelines to follow:
 
-we follow Ray Wenderlich Style Guide.
-write tests
-make sure the entire test suite passes
-More Info
+- we follow [Ray Wenderlich Style Guide](https://github.com/raywenderlich/objective-c-style-guide).
+- write tests
+- make sure the entire test suite passes
 
-Have a question? Please open an issue!
+## More Info
 
-Authors
+Have a question? Please [open an issue](https://github.com/netguru/carrierwave-ios/issues/new)!
 
-Adrian Kashivskyy
+## Authors
 
-https://github.com/akashivskyy
-https://twitter.com/akashivskyy
-Patryk Kaczmarek
+**Adrian Kashivskyy**
 
-https://github.com/PatrykKaczmarek
-Wojciech Trzasko
+- [https://github.com/akashivskyy](https://github.com/akashivskyy)
+- [https://twitter.com/akashivskyy](https://twitter.com/akashivskyy)
 
-https://github.com/WojciechTrzasko
-Grzegorz Lesiak
+**Patryk Kaczmarek**
 
-https://github.com/glesiak
-Paweł Białecki
+- [https://github.com/PatrykKaczmarek](https://github.com/PatrykKaczmarek)
 
-Marcin Piesiak
-https://github.com/marcinpiesiak
+**Wojciech Trzasko**
 
-https://github.com/ecler
-Copyright © 2014-2015 Netguru
+- [https://github.com/WojciechTrzasko](https://github.com/WojciechTrzasko)
+
+**Grzegorz Lesiak**
+
+- [https://github.com/glesiak](https://github.com/glesiak)
+
+**Paweł Białecki**
+
+- [https://github.com/ecler](https://github.com/ecler)
+
+**Marcin Piesiak**
+
+- [https://github.com/marcinpiesiak](https://github.com/marcinpiesiak)
+
+Copyright © 2014-2015 [Netguru](https://netguru.co)
