@@ -125,3 +125,43 @@ Animates crop view to given ratio around its center. Final dimensions are maximu
 ```
 
 Animations algorithm is smart enough to validate if given/calculated frame is located in the superview or not. If not origin and/or size will be changed to valid one. So you do not have to worry that crop view will move outside the boundaries of its superview.
+
+License
+
+carrierwave-ios is available under the MIT license.
+
+Contribution
+
+First, thank you for contributing!
+
+Here's a few guidelines to follow:
+
+we follow Ray Wenderlich Style Guide.
+write tests
+make sure the entire test suite passes
+More Info
+
+Have a question? Please open an issue!
+
+Authors
+
+Adrian Kashivskyy
+
+https://github.com/akashivskyy
+https://twitter.com/akashivskyy
+Patryk Kaczmarek
+
+https://github.com/PatrykKaczmarek
+Wojciech Trzasko
+
+https://github.com/WojciechTrzasko
+Grzegorz Lesiak
+
+https://github.com/glesiak
+Paweł Białecki
+
+Marcin Piesiak
+https://github.com/marcinpiesiak
+
+https://github.com/ecler
+Copyright © 2014-2015 Netguru
