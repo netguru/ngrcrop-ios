@@ -53,7 +53,7 @@ Specifying header and footer height is also possible:
 
 ### Crop border
 
-Crop border is customizable as well. It has bunch of options which help its to fit your app style. For more info please refer to [NGRScalableView](https://github.com/netguru/carrierwave-ios/blob/master/Carrierwave/CRVScalableView.h) and [NGRScalableBorder](https://github.com/netguru/carrierwave-ios/blob/master/Carrierwave/CRVScalableBorder.h)
+Crop border is customizable as well. It has bunch of options which help its to fit your app style. For more info please refer to [NGRScalableView](https://github.com/netguru/ngrcrop-ios/blob/master/NGRCrop/CropFrame/NGRScalableView.h) and [NGRScalableBorder](https://github.com/netguru/ngrcrop-ios/blob/master/NGRCrop/CropFrame/CRVScalableBorder.h)
 
 #### Animation options
 ```
