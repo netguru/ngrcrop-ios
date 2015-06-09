@@ -154,18 +154,6 @@ Have a question? Please [open an issue](https://github.com/netguru/ngrcrop-ios/i
 
 - [https://github.com/PatrykKaczmarek](https://github.com/PatrykKaczmarek)
 
-**Wojciech Trzasko**
-
-- [https://github.com/WojciechTrzasko](https://github.com/WojciechTrzasko)
-
-**Grzegorz Lesiak**
-
-- [https://github.com/glesiak](https://github.com/glesiak)
-
-**Paweł Białecki**
-
-- [https://github.com/ecler](https://github.com/ecler)
-
 **Marcin Piesiak**
 
 - [https://github.com/marcinpiesiak](https://github.com/marcinpiesiak)
