@@ -12,7 +12,6 @@
 #import "NGRHeaderFooterView.h"
 #import "NGRRatioItem.h"
 
-@class NGRImageAsset;
 @protocol NGRImageEditViewControllerDelegate;
 
 /**
@@ -28,7 +27,7 @@ IB_DESIGNABLE @interface NGRImageEditViewController : UIViewController
  *
  *  @return An initialized receiver.
  */
-- (instancetype)initWithImageAsset:(NGRImageAsset *)asset NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithImage:(UIImage *)asset NS_DESIGNATED_INITIALIZER;
 
 /**
  *  The original image asset to be edited.

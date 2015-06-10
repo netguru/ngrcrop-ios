@@ -25,59 +25,59 @@
     
     /*top left:
      A*-------*B
-     |  D    |
-     |  *----*C
-     |  |
+     |   D    |
+     |   *----*C
+     |   |
      F*--*E
      */
-    /*D*/CGContextMoveToPoint(context, self.borderInset, self.borderInset);
-    /*C*/CGContextAddLineToPoint(context, anchorWidth, self.borderInset);
-    /*B*/CGContextAddLineToPoint(context, anchorWidth, self.borderInset - lineWidth);
-    /*A*/CGContextAddLineToPoint(context, self.borderInset - lineWidth, self.borderInset - lineWidth);
-    /*F*/CGContextAddLineToPoint(context, self.borderInset - lineWidth, anchorHeight);
-    /*E*/CGContextAddLineToPoint(context, self.borderInset, anchorHeight);
+    /*D*/ CGContextMoveToPoint(context, self.borderInset, self.borderInset);
+    /*C*/ CGContextAddLineToPoint(context, anchorWidth, self.borderInset);
+    /*B*/ CGContextAddLineToPoint(context, anchorWidth, self.borderInset - lineWidth);
+    /*A*/ CGContextAddLineToPoint(context, self.borderInset - lineWidth, self.borderInset - lineWidth);
+    /*F*/ CGContextAddLineToPoint(context, self.borderInset - lineWidth, anchorHeight);
+    /*E*/ CGContextAddLineToPoint(context, self.borderInset, anchorHeight);
     
     /*top right:
      A*-------*B
-     |    E  |
+     |     E  |
      F*----*  |
-     |  |
+     |   |
      D*--*C
      */
-    /*A*/CGContextMoveToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, self.borderInset - lineWidth);
-    /*B*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, self.borderInset - lineWidth);
-    /*C*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, anchorHeight);
-    /*D*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, anchorHeight);
-    /*E*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, self.borderInset);
-    /*F*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, self.borderInset);
+    /*A*/ CGContextMoveToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, self.borderInset - lineWidth);
+    /*B*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, self.borderInset - lineWidth);
+    /*C*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, anchorHeight);
+    /*D*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, anchorHeight);
+    /*E*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, self.borderInset);
+    /*F*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, self.borderInset);
     
     /*bottom right:
      B*--*C
-     |  |
+     |   |
      F*----*  |
-     |    A  |
+     |     A  |
      E*-------*D
      */
-    /*A*/CGContextMoveToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, CGRectGetHeight(self.bounds) - self.borderInset);
-    /*B*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, CGRectGetHeight(self.bounds) - anchorHeight);
-    /*C*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, CGRectGetHeight(self.bounds) - anchorHeight);
-    /*D*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
-    /*E*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
-    /*F*/CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset);
+    /*A*/ CGContextMoveToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, CGRectGetHeight(self.bounds) - self.borderInset);
+    /*B*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset, CGRectGetHeight(self.bounds) - anchorHeight);
+    /*C*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, CGRectGetHeight(self.bounds) - anchorHeight);
+    /*D*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - self.borderInset + lineWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
+    /*E*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
+    /*F*/ CGContextAddLineToPoint(context, CGRectGetWidth(self.bounds) - anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset);
     
     /*bottom left:
      E*--*F
-     |  |
-     |  *----*B
-     |  A    |
+     |   |
+     |   *----*B
+     |   A    |
      D*-------*C
      */
-    /*A*/CGContextMoveToPoint(context, self.borderInset, CGRectGetHeight(self.bounds) - self.borderInset);
-    /*B*/CGContextAddLineToPoint(context, anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset);
-    /*C*/CGContextAddLineToPoint(context, anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
-    /*D*/CGContextAddLineToPoint(context, self.borderInset - lineWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
-    /*E*/CGContextAddLineToPoint(context, self.borderInset - lineWidth, CGRectGetHeight(self.bounds) - anchorHeight);
-    /*F*/CGContextAddLineToPoint(context, self.borderInset, CGRectGetHeight(self.bounds) - anchorHeight);
+    /*A*/ CGContextMoveToPoint(context, self.borderInset, CGRectGetHeight(self.bounds) - self.borderInset);
+    /*B*/ CGContextAddLineToPoint(context, anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset);
+    /*C*/ CGContextAddLineToPoint(context, anchorWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
+    /*D*/ CGContextAddLineToPoint(context, self.borderInset - lineWidth, CGRectGetHeight(self.bounds) - self.borderInset + lineWidth);
+    /*E*/ CGContextAddLineToPoint(context, self.borderInset - lineWidth, CGRectGetHeight(self.bounds) - anchorHeight);
+    /*F*/ CGContextAddLineToPoint(context, self.borderInset, CGRectGetHeight(self.bounds) - anchorHeight);
     
     // top middle:
     CGContextMoveToPoint(context, CGRectGetMidX(self.bounds) - anchorWidth * 0.5f, self.borderInset - lineWidth);

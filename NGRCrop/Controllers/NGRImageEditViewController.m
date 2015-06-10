@@ -28,7 +28,7 @@
 
 #pragma mark - Object Lifecycle
 
-- (instancetype)initWithImageAsset:(UIImage *)asset {
+- (instancetype)initWithImage:(UIImage *)asset {
     if (self = [super initWithNibName:nil bundle:nil]) {
         self.imageAsset = asset;
     }
@@ -36,7 +36,7 @@
 }
 
 - (instancetype)init {
-    return [self initWithImageAsset:nil];
+    return [self initWithImage:nil];
 }
 
 - (void)dealloc {

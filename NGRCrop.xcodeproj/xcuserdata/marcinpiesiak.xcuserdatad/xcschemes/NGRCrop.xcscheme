@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "961CA2301AF8EB3A00C339BB"
-               BuildableName = "libNGRCrop.a"
+               BlueprintIdentifier = "963E1DFF1B2714FC00C83882"
+               BuildableName = "NGRCrop.framework"
                BlueprintName = "NGRCrop"
                ReferencedContainer = "container:NGRCrop.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "961CA23B1AF8EB3A00C339BB"
+               BlueprintIdentifier = "963E1E0A1B2714FC00C83882"
                BuildableName = "NGRCropTests.xctest"
                BlueprintName = "NGRCropTests"
                ReferencedContainer = "container:NGRCrop.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "961CA23B1AF8EB3A00C339BB"
+               BlueprintIdentifier = "963E1E0A1B2714FC00C83882"
                BuildableName = "NGRCropTests.xctest"
                BlueprintName = "NGRCropTests"
                ReferencedContainer = "container:NGRCrop.xcodeproj">
@@ -56,8 +56,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "961CA2301AF8EB3A00C339BB"
-            BuildableName = "libNGRCrop.a"
+            BlueprintIdentifier = "963E1DFF1B2714FC00C83882"
+            BuildableName = "NGRCrop.framework"
             BlueprintName = "NGRCrop"
             ReferencedContainer = "container:NGRCrop.xcodeproj">
          </BuildableReference>
@@ -75,8 +75,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "961CA2301AF8EB3A00C339BB"
-            BuildableName = "libNGRCrop.a"
+            BlueprintIdentifier = "963E1DFF1B2714FC00C83882"
+            BuildableName = "NGRCrop.framework"
             BlueprintName = "NGRCrop"
             ReferencedContainer = "container:NGRCrop.xcodeproj">
          </BuildableReference>
@@ -93,8 +93,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "961CA2301AF8EB3A00C339BB"
-            BuildableName = "libNGRCrop.a"
+            BlueprintIdentifier = "963E1DFF1B2714FC00C83882"
+            BuildableName = "NGRCrop.framework"
             BlueprintName = "NGRCrop"
             ReferencedContainer = "container:NGRCrop.xcodeproj">
          </BuildableReference>
