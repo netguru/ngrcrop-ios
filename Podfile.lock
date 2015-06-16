@@ -1,0 +1,34 @@
+PODS:
+  - Expecta (1.0.0)
+  - KIF (3.2.3):
+    - KIF/XCTest (= 3.2.3)
+  - KIF/XCTest (3.2.3)
+  - OCMock (3.1.2)
+  - OHHTTPStubs (4.0.2)
+  - Specta (0.3.0.beta1)
+
+DEPENDENCIES:
+  - Expecta
+  - KIF
+  - OCMock
+  - OHHTTPStubs
+  - Specta (from `https://github.com/specta/specta.git`, tag `v0.3.0.beta1`)
+
+EXTERNAL SOURCES:
+  Specta:
+    :git: https://github.com/specta/specta.git
+    :tag: v0.3.0.beta1
+
+CHECKOUT OPTIONS:
+  Specta:
+    :git: https://github.com/specta/specta.git
+    :tag: v0.3.0.beta1
+
+SPEC CHECKSUMS:
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  KIF: a94bffe9c97e449e44f8fa481c53243d21309e1e
+  OCMock: a10ea9f0a6e921651f96f78b6faee95ebc813b92
+  OHHTTPStubs: dbd1957d414659783e07b49c961940b7564c23d9
+  Specta: d2158a483ad179e5f8d3a29f75ff4fc0ff6fab16
+
+COCOAPODS: 0.37.1

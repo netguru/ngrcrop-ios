@@ -9,38 +9,53 @@
 /* Begin PBXBuildFile section */
 		963E1E0C1B2714FC00C83882 /* NGRCrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963E1E001B2714FC00C83882 /* NGRCrop.framework */; };
 		963E1E131B2714FC00C83882 /* NGRCropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E121B2714FC00C83882 /* NGRCropTests.m */; };
-		963E1E251B2715BA00C83882 /* NGRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E1D1B2715BA00C83882 /* NGRAlertController.h */; };
+		963E1E251B2715BA00C83882 /* NGRAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E1D1B2715BA00C83882 /* NGRAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E261B2715BA00C83882 /* NGRAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E1E1B2715BA00C83882 /* NGRAlertController.m */; };
-		963E1E271B2715BA00C83882 /* NGREventMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E1F1B2715BA00C83882 /* NGREventMessenger.h */; };
+		963E1E271B2715BA00C83882 /* NGREventMessenger.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E1F1B2715BA00C83882 /* NGREventMessenger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E281B2715BA00C83882 /* NGREventMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E201B2715BA00C83882 /* NGREventMessenger.m */; };
-		963E1E291B2715BA00C83882 /* NGRImageEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E211B2715BA00C83882 /* NGRImageEditViewController.h */; };
+		963E1E291B2715BA00C83882 /* NGRImageEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E211B2715BA00C83882 /* NGRImageEditViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E2A1B2715BA00C83882 /* NGRImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E221B2715BA00C83882 /* NGRImageEditViewController.m */; };
-		963E1E2B1B2715BA00C83882 /* NGRTransformViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E231B2715BA00C83882 /* NGRTransformViewController.h */; };
+		963E1E2B1B2715BA00C83882 /* NGRTransformViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E231B2715BA00C83882 /* NGRTransformViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E2C1B2715BA00C83882 /* NGRTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E241B2715BA00C83882 /* NGRTransformViewController.m */; };
-		963E1E321B2715CD00C83882 /* NGRImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E2E1B2715CD00C83882 /* NGRImageEditView.h */; };
+		963E1E321B2715CD00C83882 /* NGRImageEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E2E1B2715CD00C83882 /* NGRImageEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E331B2715CD00C83882 /* NGRImageEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E2F1B2715CD00C83882 /* NGRImageEditView.m */; };
-		963E1E341B2715CD00C83882 /* NGRTransformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E301B2715CD00C83882 /* NGRTransformView.h */; };
+		963E1E341B2715CD00C83882 /* NGRTransformView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E301B2715CD00C83882 /* NGRTransformView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E351B2715CD00C83882 /* NGRTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E311B2715CD00C83882 /* NGRTransformView.m */; };
-		963E1E3D1B2715F000C83882 /* NGRAnchorPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E371B2715F000C83882 /* NGRAnchorPoint.h */; };
+		963E1E3D1B2715F000C83882 /* NGRAnchorPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E371B2715F000C83882 /* NGRAnchorPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E3E1B2715F000C83882 /* NGRAnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E381B2715F000C83882 /* NGRAnchorPoint.m */; };
-		963E1E3F1B2715F000C83882 /* NGRScalableBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E391B2715F000C83882 /* NGRScalableBorder.h */; };
+		963E1E3F1B2715F000C83882 /* NGRScalableBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E391B2715F000C83882 /* NGRScalableBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E401B2715F000C83882 /* NGRScalableBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E3A1B2715F000C83882 /* NGRScalableBorder.m */; };
-		963E1E411B2715F000C83882 /* NGRScalableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E3B1B2715F000C83882 /* NGRScalableView.h */; };
+		963E1E411B2715F000C83882 /* NGRScalableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E3B1B2715F000C83882 /* NGRScalableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E421B2715F000C83882 /* NGRScalableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E3C1B2715F000C83882 /* NGRScalableView.m */; };
-		963E1E481B27160F00C83882 /* NGRScalableBorder+Anchors.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E441B27160F00C83882 /* NGRScalableBorder+Anchors.h */; };
+		963E1E481B27160F00C83882 /* NGRScalableBorder+Anchors.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E441B27160F00C83882 /* NGRScalableBorder+Anchors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E491B27160F00C83882 /* NGRScalableBorder+Anchors.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E451B27160F00C83882 /* NGRScalableBorder+Anchors.m */; };
-		963E1E4A1B27160F00C83882 /* NGRScalableView+Math.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E461B27160F00C83882 /* NGRScalableView+Math.h */; };
+		963E1E4A1B27160F00C83882 /* NGRScalableView+Math.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E461B27160F00C83882 /* NGRScalableView+Math.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E4B1B27160F00C83882 /* NGRScalableView+Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E471B27160F00C83882 /* NGRScalableView+Math.m */; };
-		963E1E531B27162E00C83882 /* NGRFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E4D1B27162E00C83882 /* NGRFooterView.h */; };
+		963E1E531B27162E00C83882 /* NGRFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E4D1B27162E00C83882 /* NGRFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E541B27162E00C83882 /* NGRFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E4E1B27162E00C83882 /* NGRFooterView.m */; };
-		963E1E551B27162E00C83882 /* NGRHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E4F1B27162E00C83882 /* NGRHeaderFooterView.h */; };
+		963E1E551B27162E00C83882 /* NGRHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E4F1B27162E00C83882 /* NGRHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E561B27162E00C83882 /* NGRHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E501B27162E00C83882 /* NGRHeaderFooterView.m */; };
-		963E1E571B27162E00C83882 /* NGRHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E511B27162E00C83882 /* NGRHeaderView.h */; };
+		963E1E571B27162E00C83882 /* NGRHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E511B27162E00C83882 /* NGRHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E581B27162E00C83882 /* NGRHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E521B27162E00C83882 /* NGRHeaderView.m */; };
-		963E1E5C1B27164500C83882 /* NGRRatioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5A1B27164500C83882 /* NGRRatioItem.h */; };
+		963E1E5C1B27164500C83882 /* NGRRatioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5A1B27164500C83882 /* NGRRatioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		963E1E5D1B27164500C83882 /* NGRRatioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 963E1E5B1B27164500C83882 /* NGRRatioItem.m */; };
-		963E1E601B27167000C83882 /* NGRGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5E1B27167000C83882 /* NGRGeometry.h */; };
-		963E1E611B27167000C83882 /* NGRNotificationIdentifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5F1B27167000C83882 /* NGRNotificationIdentifiers.h */; };
+		963E1E601B27167000C83882 /* NGRGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5E1B27167000C83882 /* NGRGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963E1E611B27167000C83882 /* NGRNotificationIdentifiers.h in Headers */ = {isa = PBXBuildFile; fileRef = 963E1E5F1B27167000C83882 /* NGRNotificationIdentifiers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96AF73551B29B05500CD87B8 /* NGRAnchorPointSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73541B29B05500CD87B8 /* NGRAnchorPointSpec.m */; };
+		96AF73581B29B5BA00CD87B8 /* NGRCrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 96AF73571B29B56000CD87B8 /* NGRCrop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96AF735E1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF735D1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.m */; };
+		96AF73611B2AD2F200CD87B8 /* NGRFooterViewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73601B2AD2F200CD87B8 /* NGRFooterViewBehavior.m */; };
+		96AF73651B2AD39E00CD87B8 /* UIView+Specs.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73641B2AD39E00CD87B8 /* UIView+Specs.m */; };
+		96AF73681B2AD40D00CD87B8 /* UIButton+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73671B2AD40D00CD87B8 /* UIButton+Spec.m */; };
+		96AF736A1B2AD74D00CD87B8 /* NGRScalableBorderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF73691B2AD74D00CD87B8 /* NGRScalableBorderSpec.m */; };
+		96AF736C1B2AD7BD00CD87B8 /* NGRScalableViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF736B1B2AD7BD00CD87B8 /* NGRScalableViewSpec.m */; };
+		96AF736E1B2AD82400CD87B8 /* NGRRatioItemSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AF736D1B2AD82400CD87B8 /* NGRRatioItemSpec.m */; };
+		96B83EEE1B2EE01D00D9040D /* NGRHeaderFooterViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83EED1B2EE01D00D9040D /* NGRHeaderFooterViewSpec.m */; };
+		96B83EF01B2EE86800D9040D /* NGRHeaderViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83EEF1B2EE86800D9040D /* NGRHeaderViewSpec.m */; };
+		96B83EF21B2EE8AE00D9040D /* NGRFooterViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83EF11B2EE8AE00D9040D /* NGRFooterViewSpec.m */; };
+		96B83EF41B2EED4600D9040D /* NGRAlertControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83EF31B2EED4600D9040D /* NGRAlertControllerSpec.m */; };
+		96B83EF61B2EF29000D9040D /* NGREventMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B83EF51B2EF29000D9040D /* NGREventMessenger.m */; };
+		B6281AE2464D081ABAEA934F /* libPods-NGRCropTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3772F1949031DA76F2FC858F /* libPods-NGRCropTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3772F1949031DA76F2FC858F /* libPods-NGRCropTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NGRCropTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E1E001B2714FC00C83882 /* NGRCrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGRCrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		963E1E041B2714FC00C83882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963E1E0B1B2714FC00C83882 /* NGRCropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGRCropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +107,26 @@
 		963E1E5B1B27164500C83882 /* NGRRatioItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NGRRatioItem.m; path = Models/NGRRatioItem.m; sourceTree = "<group>"; };
 		963E1E5E1B27167000C83882 /* NGRGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRGeometry.h; sourceTree = "<group>"; };
 		963E1E5F1B27167000C83882 /* NGRNotificationIdentifiers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRNotificationIdentifiers.h; sourceTree = "<group>"; };
+		96AF73541B29B05500CD87B8 /* NGRAnchorPointSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRAnchorPointSpec.m; sourceTree = "<group>"; };
+		96AF73571B29B56000CD87B8 /* NGRCrop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGRCrop.h; sourceTree = "<group>"; };
+		96AF735C1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+NGRAnchorPoint.h"; sourceTree = "<group>"; };
+		96AF735D1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+NGRAnchorPoint.m"; sourceTree = "<group>"; };
+		96AF735F1B29B73C00CD87B8 /* NGRTest-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NGRTest-prefix.pch"; sourceTree = "<group>"; };
+		96AF73601B2AD2F200CD87B8 /* NGRFooterViewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRFooterViewBehavior.m; sourceTree = "<group>"; };
+		96AF73631B2AD39E00CD87B8 /* UIView+Specs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Specs.h"; path = "Helper/UIView+Specs.h"; sourceTree = "<group>"; };
+		96AF73641B2AD39E00CD87B8 /* UIView+Specs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Specs.m"; path = "Helper/UIView+Specs.m"; sourceTree = "<group>"; };
+		96AF73661B2AD40D00CD87B8 /* UIButton+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Spec.h"; path = "Helper/UIButton+Spec.h"; sourceTree = "<group>"; };
+		96AF73671B2AD40D00CD87B8 /* UIButton+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Spec.m"; path = "Helper/UIButton+Spec.m"; sourceTree = "<group>"; };
+		96AF73691B2AD74D00CD87B8 /* NGRScalableBorderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRScalableBorderSpec.m; sourceTree = "<group>"; };
+		96AF736B1B2AD7BD00CD87B8 /* NGRScalableViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRScalableViewSpec.m; sourceTree = "<group>"; };
+		96AF736D1B2AD82400CD87B8 /* NGRRatioItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRRatioItemSpec.m; sourceTree = "<group>"; };
+		96B83EED1B2EE01D00D9040D /* NGRHeaderFooterViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRHeaderFooterViewSpec.m; sourceTree = "<group>"; };
+		96B83EEF1B2EE86800D9040D /* NGRHeaderViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRHeaderViewSpec.m; sourceTree = "<group>"; };
+		96B83EF11B2EE8AE00D9040D /* NGRFooterViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRFooterViewSpec.m; sourceTree = "<group>"; };
+		96B83EF31B2EED4600D9040D /* NGRAlertControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRAlertControllerSpec.m; sourceTree = "<group>"; };
+		96B83EF51B2EF29000D9040D /* NGREventMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGREventMessenger.m; sourceTree = "<group>"; };
+		CEAD2165BA9DA29AFBDA18F7 /* Pods-NGRCropTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGRCropTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGRCropTests/Pods-NGRCropTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED0C8D2EA63D4FDB3043CFC8 /* Pods-NGRCropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGRCropTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGRCropTests/Pods-NGRCropTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,18 +142,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				963E1E0C1B2714FC00C83882 /* NGRCrop.framework in Frameworks */,
+				B6281AE2464D081ABAEA934F /* libPods-NGRCropTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057FF1A1F0672EAA3601436D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3772F1949031DA76F2FC858F /* libPods-NGRCropTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568A6A7E706129ED14E6CBB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C8D2EA63D4FDB3043CFC8 /* Pods-NGRCropTests.debug.xcconfig */,
+				CEAD2165BA9DA29AFBDA18F7 /* Pods-NGRCropTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		963E1DF61B2714FC00C83882 = {
 			isa = PBXGroup;
 			children = (
 				963E1E021B2714FC00C83882 /* NGRCrop */,
 				963E1E0F1B2714FC00C83882 /* NGRCropTests */,
 				963E1E011B2714FC00C83882 /* Products */,
+				568A6A7E706129ED14E6CBB8 /* Pods */,
+				057FF1A1F0672EAA3601436D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +197,7 @@
 				963E1E2D1B2715C100C83882 /* Views */,
 				963E1E1C1B2715A500C83882 /* Controllers */,
 				963E1E031B2714FC00C83882 /* Supporting Files */,
+				96AF73571B29B56000CD87B8 /* NGRCrop.h */,
 			);
 			path = NGRCrop;
 			sourceTree = "<group>";
@@ -156,8 +213,22 @@
 		963E1E0F1B2714FC00C83882 /* NGRCropTests */ = {
 			isa = PBXGroup;
 			children = (
+				96B83EF51B2EF29000D9040D /* NGREventMessenger.m */,
+				96B83EF31B2EED4600D9040D /* NGRAlertControllerSpec.m */,
+				96B83EF11B2EE8AE00D9040D /* NGRFooterViewSpec.m */,
+				96B83EEF1B2EE86800D9040D /* NGRHeaderViewSpec.m */,
+				96B83EED1B2EE01D00D9040D /* NGRHeaderFooterViewSpec.m */,
+				96AF736D1B2AD82400CD87B8 /* NGRRatioItemSpec.m */,
+				96AF736B1B2AD7BD00CD87B8 /* NGRScalableViewSpec.m */,
+				96AF73691B2AD74D00CD87B8 /* NGRScalableBorderSpec.m */,
+				96AF73621B2AD39200CD87B8 /* Helper */,
+				96AF73601B2AD2F200CD87B8 /* NGRFooterViewBehavior.m */,
+				96AF735C1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.h */,
+				96AF735D1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.m */,
+				96AF73541B29B05500CD87B8 /* NGRAnchorPointSpec.m */,
 				963E1E121B2714FC00C83882 /* NGRCropTests.m */,
 				963E1E101B2714FC00C83882 /* Supporting Files */,
+				96AF735F1B29B73C00CD87B8 /* NGRTest-prefix.pch */,
 			);
 			path = NGRCropTests;
 			sourceTree = "<group>";
@@ -243,6 +314,17 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		96AF73621B2AD39200CD87B8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				96AF73661B2AD40D00CD87B8 /* UIButton+Spec.h */,
+				96AF73671B2AD40D00CD87B8 /* UIButton+Spec.m */,
+				96AF73631B2AD39E00CD87B8 /* UIView+Specs.h */,
+				96AF73641B2AD39E00CD87B8 /* UIView+Specs.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -267,6 +349,7 @@
 				963E1E551B27162E00C83882 /* NGRHeaderFooterView.h in Headers */,
 				963E1E411B2715F000C83882 /* NGRScalableView.h in Headers */,
 				963E1E291B2715BA00C83882 /* NGRImageEditViewController.h in Headers */,
+				96AF73581B29B5BA00CD87B8 /* NGRCrop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +378,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 963E1E191B2714FC00C83882 /* Build configuration list for PBXNativeTarget "NGRCropTests" */;
 			buildPhases = (
+				FC1C3D69CF4116CB087EDCC6 /* Check Pods Manifest.lock */,
 				963E1E071B2714FC00C83882 /* Sources */,
 				963E1E081B2714FC00C83882 /* Frameworks */,
 				963E1E091B2714FC00C83882 /* Resources */,
+				AB52675C2F0B2B251594FEB0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,6 +446,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB52675C2F0B2B251594FEB0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGRCropTests/Pods-NGRCropTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC1C3D69CF4116CB087EDCC6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		963E1DFB1B2714FC00C83882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -388,7 +506,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AF73551B29B05500CD87B8 /* NGRAnchorPointSpec.m in Sources */,
+				96B83EF01B2EE86800D9040D /* NGRHeaderViewSpec.m in Sources */,
+				96B83EF61B2EF29000D9040D /* NGREventMessenger.m in Sources */,
+				96AF736E1B2AD82400CD87B8 /* NGRRatioItemSpec.m in Sources */,
 				963E1E131B2714FC00C83882 /* NGRCropTests.m in Sources */,
+				96AF735E1B29B66900CD87B8 /* EXPMatchers+NGRAnchorPoint.m in Sources */,
+				96AF73651B2AD39E00CD87B8 /* UIView+Specs.m in Sources */,
+				96B83EF21B2EE8AE00D9040D /* NGRFooterViewSpec.m in Sources */,
+				96AF736C1B2AD7BD00CD87B8 /* NGRScalableViewSpec.m in Sources */,
+				96AF73681B2AD40D00CD87B8 /* UIButton+Spec.m in Sources */,
+				96B83EF41B2EED4600D9040D /* NGRAlertControllerSpec.m in Sources */,
+				96AF736A1B2AD74D00CD87B8 /* NGRScalableBorderSpec.m in Sources */,
+				96AF73611B2AD2F200CD87B8 /* NGRFooterViewBehavior.m in Sources */,
+				96B83EEE1B2EE01D00D9040D /* NGRHeaderFooterViewSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,11 +654,14 @@
 		};
 		963E1E1A1B2714FC00C83882 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0C8D2EA63D4FDB3043CFC8 /* Pods-NGRCropTests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "NGRCropTests/NGRTest-prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -540,11 +674,14 @@
 		};
 		963E1E1B1B2714FC00C83882 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAD2165BA9DA29AFBDA18F7 /* Pods-NGRCropTests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "NGRCropTests/NGRTest-prefix.pch";
 				INFOPLIST_FILE = NGRCropTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,6 +707,7 @@
 				963E1E181B2714FC00C83882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		963E1E191B2714FC00C83882 /* Build configuration list for PBXNativeTarget "NGRCropTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +716,7 @@
 				963E1E1B1B2714FC00C83882 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
